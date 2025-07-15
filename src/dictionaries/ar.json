@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "why_odoo": "لماذا أودو",
+    "why_us": "لماذا تختارنا",
+    "our_packages": "باقاتنا",
+    "our_clients": "عملاؤنا",
+    "free_consultation": "استشارة مجانية"
+  },
+  "hero": {
+    "title_line_1": "تخيّل منصة واحدة",
+    "title_line_2": "لإدارة كل تفاصيل عملك",
+    "highlight_odoo": "Odoo ERP",
+    "highlight_company": "Flowtic",
+    "description_1": "مع نظام {odoo}، تقدر تدير شركتك بالكامل من مكان واحد",
+    "description_2": "جاهز تبدأ التحوّل الذكي؟ ابدأ اليوم مع {company} شريكك المعتمد",
+    "subtext": "تطبيقات محترفة مبسطة ومحبوبة لملايين المستخدمين حول العالم",
+    "cta_start": "ابدأ رحلتك الآن",
+    "cta_demo": "شاهد العرض التوضيحي",
+    "trusted_by": "موثوق من آلاف الشركات",
+    "support": "دعم فني 24/7",
+    "tag_integrated": "نظام متكامل",
+    "tag_easy": "سهل الاستخدام"
+  },
+  "sales": {
+    "title": "قوي مبيعاتك",
+    "crm": "علاقات العملاء",
+    "sales": "المبيعات",
+    "pos": "نقاط البيع",
+    "restaurants": "المطاعم",
+    "production": "إنتاج",
+    "subscriptions": "الاشتراكات"
+  },
+  "operations": {
+    "title": "أتقن عملياتك",
+    "accounts": "الحسابات",
+    "projects": "المشاريع",
+    "purchases": "المشتريات",
+    "inventory": "المخزون",
+    "manufacturing": "التصنيع",
+    "payroll": "الرواتب"
+  },
+  "employees": {
+    "title": "أدر موظفيك",
+    "staff": "الموظفين",
+    "attendance": "الحضور",
+    "leaves": "الإجازات",
+    "appraisal": "التقييم",
+    "recruitment": "التوظيف",
+    "fleet": "الأسطول"
+  },
+  "web": {
+    "title": "إظهر على الويب",
+    "website": "الموقع",
+    "store": "المتجر",
+    "events": "الفعاليات",
+    "appointments": "المواعيد",
+    "support": "الدعم الفني",
+    "elearning": "التعليم الالكتروني"
+  },
+  "productivity": {
+    "title": "ارفع الإنتاجية",
+    "tasks": "المهام",
+    "documents": "المستندات",
+    "esignature": "التوقيع الالكتروني",
+    "chat": "تشات",
+    "knowledge": "مركز المعرفة",
+    "dashboard": "الداشبورد والتقويم"
+  },
+  "marketing": {
+    "title": "التسويق",
+    "email": "التسويق بالإيميل",
+    "sms": "رسائل الجوال",
+    "whatsapp": "الواتس آب",
+    "systems": "أنظمة التسويق",
+    "social": "التواصل الاجتماعي",
+    "surveys": "الاستطلاعات"
+  },
+  "odooHeader": {
+    "title": "نظام ذكي لكل أقسام عملك",
+    "description": "تابع، راقب، واشتغل بكفاءة أعلى كل المهام تنجزها من مكان واحد، بدون تعقيد ولا أخطاء"
+  }
+}

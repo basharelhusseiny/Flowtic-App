@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "why_odoo": "Why Odoo",
+    "why_us": "Why Choose Us",
+    "our_packages": "Our Packages",
+    "our_clients": "Our Clients",
+    "free_consultation": "Free Consultation"
+  },
+  "hero": {
+    "title_line_1": "Imagine One Platform",
+    "title_line_2": "To Manage Every Detail of Your Business",
+    "highlight_odoo": "Odoo ERP",
+    "highlight_company": "Flowtic",
+    "description_1": "With {odoo}, you can manage your entire company from one place",
+    "description_2": "Ready to go smart? Start today with {company}, your certified partner",
+    "subtext": "Professional, simple apps loved by millions of users around the world",
+    "cta_start": "Start Your Journey",
+    "cta_demo": "Watch Demo",
+    "trusted_by": "Trusted by thousands of companies",
+    "support": "24/7 Technical Support",
+    "tag_integrated": "Integrated System",
+    "tag_easy": "Easy to Use"
+  },
+  "sales": {
+    "title": "Boost Your Sales",
+    "crm": "Customer Relations",
+    "sales": "Sales",
+    "pos": "Point of Sale",
+    "restaurants": "Restaurants",
+    "production": "Production",
+    "subscriptions": "Subscriptions"
+  },
+  "operations": {
+    "title": "Master Your Operations",
+    "accounts": "Accounting",
+    "projects": "Projects",
+    "purchases": "Purchasing",
+    "inventory": "Inventory",
+    "manufacturing": "Manufacturing",
+    "payroll": "Payroll"
+  },
+  "employees": {
+    "title": "Manage Your Employees",
+    "staff": "Employees",
+    "attendance": "Attendance",
+    "leaves": "Leaves",
+    "appraisal": "Appraisal",
+    "recruitment": "Recruitment",
+    "fleet": "Fleet"
+  },
+  "web": {
+    "title": "Show Up Online",
+    "website": "Website",
+    "store": "Store",
+    "events": "Events",
+    "appointments": "Appointments",
+    "support": "Technical Support",
+    "elearning": "E-Learning"
+  },
+  "productivity": {
+    "title": "Increase Productivity",
+    "tasks": "Tasks",
+    "documents": "Documents",
+    "esignature": "E-Signature",
+    "chat": "Chat",
+    "knowledge": "Knowledge Center",
+    "dashboard": "Dashboard & Calendar"
+  },
+  "marketing": {
+    "title": "Marketing",
+    "email": "Email Marketing",
+    "sms": "SMS Marketing",
+    "whatsapp": "WhatsApp",
+    "systems": "Marketing Systems",
+    "social": "Social Media",
+    "surveys": "Surveys"
+  },
+  "odooHeader": {
+    "title": "Smart System for All Your Business Departments",
+    "description": "Track, monitor, and work more efficiently with all tasks managed in one place, without complexity or errors"
+  }
+}
