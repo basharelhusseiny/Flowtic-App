@@ -24,6 +24,17 @@ const OdooInfoSection = ({ dict }) => {
             description={dict.odooHeader.description}
           />
 
+          {/* Enhanced Image Container */}
+          <div className="flex items-center justify-center mb-10">
+            <Image
+              src="/images/odoo.webp"
+              alt="Odoo Platform Interface"
+              width={200}
+              height={200}
+              className="object-contain"
+              priority
+            />
+          </div>
           {/* Desktop Grid */}
           <div className="hidden md:block">
             <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -33,7 +44,7 @@ const OdooInfoSection = ({ dict }) => {
                   className="group bg-white rounded-2xl p-4 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
                 >
                   <div className="text-center mb-6">
-                    <h3 className="text-lg font-bold text-gray-800 group-hover:text-pink-800 transition-colors">
+                    <h3 className="text-[20px] font-bold text-gray-800 group-hover:text-pink-800 transition-colors">
                       {dict[category.titleKey.split(".")[0]].title}
                     </h3>
                   </div>
@@ -57,7 +68,7 @@ const OdooInfoSection = ({ dict }) => {
                             className="object-contain"
                           />
                         </div>
-                        <span className=" text-gray-700 font-medium">
+                        <span className="text-[17px] text-gray-700 font-medium">
                           {
                             dict[item.nameKey.split(".")[0]][
                               item.nameKey.split(".")[1]
@@ -110,7 +121,7 @@ const OdooInfoSection = ({ dict }) => {
                       {category.items.map((item, idx) => (
                         <li
                           key={idx}
-                          className="flex justify-center items-center gap-3 p-2 rounded-lg"
+                          className="flex justify-start items-center gap-3 p-2 rounded-lg"
                         >
                           <div className="w-8 h-8 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center flex-shrink-0">
                             <Image
@@ -125,7 +136,7 @@ const OdooInfoSection = ({ dict }) => {
                               className="object-contain"
                             />
                           </div>
-                          <span className="text-sm text-gray-700 font-medium">
+                          <span className="text-gray-700 font-medium">
                             {
                               dict[item.nameKey.split(".")[0]][
                                 item.nameKey.split(".")[1]
@@ -139,6 +150,21 @@ const OdooInfoSection = ({ dict }) => {
                 </SwiperSlide>
               ))}
             </Swiper>
+          </div>
+          <div className="text-center mt-10 bg-gradient-to-r from-white to-pink-100 py-3 px-10 rounded-2xl shadow-lg border border-pink-100 w-fit mx-auto hover:shadow-xl transition-all duration-300">
+            <div className="flex items-center justify-center gap-3 flex-wrap">
+              <p className="text-xl font-bold text-gray-700">
+                {dict.pricingSection.line1}
+              </p>
+              <div className="flex items-center">
+                <span className="text-2xl text-pink-800 font-extrabold bg-white px-4 py-1 rounded-lg shadow-sm">
+                  {dict.pricingSection.price}
+                </span>
+              </div>
+              <p className="text-lg text-gray-700 font-medium">
+                {dict.pricingSection.line2}
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ const FixedButtons = () => {
 
       {/* زر فيسبوك */}
       <Link
-        href="https://www.facebook.com/profile.php?id=61576341404327​"
+        href="https://www.facebook.com/profile.php?id=61576341404327&rdid=f172rDQXQvQJmzXh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1VCWVFHabZ%2F#​"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition"

@@ -51,13 +51,6 @@ const HeroSection = ({ dict, locale }) => {
                     className="flex justify-center items-center h-[50px] bg-gradient-to-r from-[#cb9ea7] to-pink-800 text-white px-8 rounded-full font-semibold text-lg hover:from-pink-800 hover:to-[#cb9ea7]  transition-colors duration-300 shadow-lg hover:shadow-xl"
                   >
                     {dict.hero.cta_start}
-                    <span
-                      className={`inline-block mx-2 ${
-                        locale === "ar" ? "ms-2" : "me-2"
-                      }`}
-                    >
-                      {locale === "ar" ? "←" : "→"}
-                    </span>
                   </Link>
                   <Link
                     href="/demo"

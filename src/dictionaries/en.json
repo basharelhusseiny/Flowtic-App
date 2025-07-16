@@ -78,5 +78,50 @@
   "odooHeader": {
     "title": "Smart System for All Your Business Departments",
     "description": "Track, monitor, and work more efficiently with all tasks managed in one place, without complexity or errors"
+  },
+  "pricingSection": {
+    "line1": "All this for only",
+    "price": "25 $",
+    "line2": "per user per month"
+  },
+  "whyodo": {
+    "title": "Why Odoo with Flowtic",
+    "subtitle": "Your ideal choice for digital transformation",
+    "sectionTitle": "Why choose Odoo ERP with Flowtic?",
+    "features": {
+      "feature1": "A modern solution to manage your business efficiently and independently",
+      "feature2": "An advanced European system that meets the highest ERP standards",
+      "feature3": "Great value for cost compared to SAP, Oracle, and Dynamics",
+      "feature4": "Over 80 apps covering all your operational needs",
+      "feature5": "User-friendly interface available in Arabic, suitable for everyone",
+      "feature6": "Free integrated mobile app for employees, clients, and vendors",
+      "feature7": "Complete flexibility in customization and development – no limits",
+      "feature8": "Trusted by over 12 million users worldwide"
+    },
+    "highlights": {
+      "users": "Over 12 million users",
+      "apps": "+80 integrated apps"
+    },
+    "testimonial": {
+      "trustedWorldwide": "Trusted Worldwide",
+      "quote1": "Tax closing used to take",
+      "quote2": ", now it takes only",
+      "quote3": "with Odoo",
+      "days": "days",
+      "hours": "hours",
+      "author": "Wim Vanbrande",
+      "position": "Head of Tax, Accounting and Legal at KPMG"
+    }
+  },
+  "statistics": {
+    "title": "Tangible Results with Flowtic Solutions for Odoo ERP",
+    "description": "Our smart solutions help you improve performance, reduce costs, and increase control",
+    "items": {
+      "1": "Reduce daily operational time",
+      "2": "Accelerate decision-making",
+      "3": "Reduce reliance on manual entry",
+      "4": "Easily comply with e-invoicing",
+      "5": "Improve accuracy of financial reports"
+    }
   }
 }
