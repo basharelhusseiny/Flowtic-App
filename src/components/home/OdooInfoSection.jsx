@@ -25,7 +25,7 @@ const OdooInfoSection = ({ dict }) => {
           />
 
           {/* Enhanced Image Container */}
-          <div className="flex items-center justify-center mb-10">
+          <div className="flex items-center justify-center mb-8">
             <Image
               src="/images/odoo.webp"
               alt="Odoo Platform Interface"

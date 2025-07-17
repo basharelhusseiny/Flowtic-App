@@ -9,6 +9,7 @@ import {
   FaFileInvoiceDollar,
   FaChartLine,
 } from "react-icons/fa";
+import WhyChooseUs from "./WhyChooseUs";
 
 const AnimatedCounter = ({ target, duration = 2000 }) => {
   const [count, setCount] = useState(0);
@@ -108,10 +109,9 @@ const StatisticsSection = ({ dict }) => {
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 text-black z-0">
         {/* Animated background elements */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10">
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-15">
           <div className="absolute -top-10 -left-10 w-40 h-40 bg-main-color rounded-full animate-pulse"></div>
-          <div className="absolute top-20 right-10 w-20 h-20 bg-main-color rounded-full animate-bounce"></div>
-          <div className="absolute bottom-10 left-1/4 w-32 h-32 bg-main-color rounded-full animate-pulse"></div>
+          <div className="absolute top-20 right-10 w-20 h-20 bg-pink-900 rounded-full animate-bounce"></div>
           <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-main-color rounded-full animate-bounce"></div>
         </div>
       </div>
@@ -186,6 +186,7 @@ const StatisticsSection = ({ dict }) => {
             </motion.div>
           ))}
         </motion.div>
+        <WhyChooseUs dict={dict} />
       </div>
     </section>
   );

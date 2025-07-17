@@ -4,19 +4,28 @@ import Image from "next/image";
 import HeaderSection from "@/ui/HeaderSection";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Turst from "./TrustUs";
+import {
+  FaBolt,
+  FaEuroSign,
+  FaDollarSign,
+  FaMobile,
+  FaGlobe,
+  FaMobileAlt,
+  FaSync,
+  FaUsers,
+} from "react-icons/fa";
 import TurstUs from "./TrustUs";
 
 const WhyOdooSection = ({ dict }) => {
   const featuresData = [
-    { id: 2, titleKey: "feature1", icon: "⚡" },
-    { id: 3, titleKey: "feature2", icon: "🇪🇺" },
-    { id: 4, titleKey: "feature3", icon: "💰" },
-    { id: 5, titleKey: "feature4", icon: "📱" },
-    { id: 6, titleKey: "feature5", icon: "🌐" },
-    { id: 7, titleKey: "feature6", icon: "📲" },
-    { id: 8, titleKey: "feature7", icon: "🔄" },
-    { id: 9, titleKey: "feature8", icon: "👥" },
+    { id: 2, titleKey: "feature1", icon: <FaBolt size={20} /> },
+    { id: 3, titleKey: "feature2", icon: <FaEuroSign size={20} /> },
+    { id: 4, titleKey: "feature3", icon: <FaDollarSign size={20} /> },
+    { id: 5, titleKey: "feature4", icon: <FaMobile size={20} /> },
+    { id: 6, titleKey: "feature5", icon: <FaGlobe size={20} /> },
+    { id: 7, titleKey: "feature6", icon: <FaMobileAlt size={20} /> },
+    { id: 8, titleKey: "feature7", icon: <FaSync size={20} /> },
+    { id: 9, titleKey: "feature8", icon: <FaUsers size={20} /> },
   ];
 
   const containerVariants = {
@@ -42,7 +51,7 @@ const WhyOdooSection = ({ dict }) => {
   };
 
   return (
-    <section className="py-14 px-4 bg-gradient-to-tl from-gray-50 via-white to-red-100 relative overflow-hidden">
+    <section className="pt-10 pb-14 px-4 bg-gradient-to-tl from-gray-50 via-white to-red-100 relative overflow-hidden">
       <div className="container mx-auto px-5 relative z-10">
         <HeaderSection
           title={dict.whyodo.title}
@@ -108,7 +117,7 @@ const WhyOdooSection = ({ dict }) => {
                     className={`flex items-center gap-4 p-2 rounded-xl ${"bg-white hover:bg-red-50 text-gray-700 shadow-md"}`}
                   >
                     <div
-                      className={`w-10 h-10 flex items-center justify-center rounded-full text-xl bg-gray-100`}
+                      className={`w-10 h-10 text-pink-800 flex items-center justify-center rounded-full bg-gray-100`}
                     >
                       {feature.icon}
                     </div>

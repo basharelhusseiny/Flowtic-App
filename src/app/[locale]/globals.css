@@ -4,6 +4,10 @@
   --main-color: #a05b6a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .bg-main-color {
     background-color: var(--main-color);
@@ -52,4 +56,28 @@
   50% {
     transform: translateY(-10px);
   }
+}
+
+::selection {
+  background-color: #a05b6a;
+  color: white;
+}
+
+/* for Scroll */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #e8d4d4;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a05b6a;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a3d4a;
+}
+.min-scrollbar::-webkit-scrollbar {
+  width: 6px;
 }

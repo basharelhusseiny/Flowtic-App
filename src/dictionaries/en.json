@@ -123,5 +123,102 @@
       "4": "Easily comply with e-invoicing",
       "5": "Improve accuracy of financial reports"
     }
+  },
+  "footer": {
+    "description": "Your ideal partner in the digital transformation journey with advanced Odoo ERP solutions",
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "rights": "© 2024 Flowtic. All rights reserved",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms & Conditions"
+  },
+
+  "whyChooseUs": {
+    "badge": "Why Choose Us?",
+    "title": "Why Choose ",
+    "icon": "?",
+    "descriptionHeading": " – Official Partner of Odoo ERP",
+    "descriptionText": "We provide smart, flexible solutions to help your business grow in Saudi Arabia and Egypt, backed by full support and proven experience.",
+    "featuresTitle": "Our Exclusive Features",
+    "features": [
+      "Hands-on experience implementing Odoo for construction, manufacturing, trade, and services",
+      "Full integration support with ZATCA e-Invoicing",
+      "Specialized consulting in financial and operational management",
+      "We start by analyzing your business and tailor the system accordingly",
+      "Ongoing technical support and practical team training",
+      "Flexible pricing for small and medium-sized businesses"
+    ]
+  },
+  "Packages": {
+    "title": "Flowtic Packages",
+    "description": "Choose the package that best suits your needs, or contact us for a customized solution.",
+    "popular_badge": "Most Popular",
+    "modules_title": "Active Modules",
+    "services_title": "Included Services",
+    "choose_package": "Choose This Package",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "packages": [
+      {
+        "name": "Essential Package",
+        "description": "For small and startup businesses beginning their digital journey",
+        "usersLimit": "Up to 5 users",
+        "price": "4000 SAR",
+        "modules": [
+          "Sales",
+          "Purchases",
+          "Inventory",
+          "Accounting",
+          "Electronic Invoicing"
+        ],
+        "services": [
+          "System Setup",
+          "Basic Data Entry (Customers, Products, Taxes)",
+          "User Training",
+          "Free Technical Support for 3 Months"
+        ]
+      },
+      {
+        "name": "Growth Package",
+        "description": "For businesses seeking comprehensive organization and efficient operations",
+        "usersLimit": "Up to 20 users",
+        "price": "10000 SAR",
+        "modules": [
+          "Sales",
+          "Purchases",
+          "Inventory",
+          "Accounting",
+          "Electronic Invoicing",
+          "Manufacturing"
+        ],
+        "services": [
+          "Business Needs Analysis",
+          "System Setup",
+          "Basic Data Entry (Customers, Products, Taxes)",
+          "User Training",
+          "Free Technical Support for 1 Year"
+        ]
+      },
+      {
+        "name": "Enterprise Package",
+        "description": "For medium and large businesses needing customization and full integration",
+        "usersLimit": "Unlimited",
+        "price": "Determined after project study and analysis",
+        "modules": [
+          "All Growth Package Modules",
+          "Human Resources",
+          "Projects",
+          "Manufacturing",
+          "Integration with External Systems (e.g., Foodics, Payment Gateways, etc.)"
+        ],
+        "services": [
+          "Detailed Study and Workflow Analysis",
+          "Comprehensive Module and Form Customization",
+          "External Integration (API – Foodics – Payment Gateways – Banks)",
+          "Comprehensive User Training",
+          "Free Technical Support for 1 Year"
+        ]
+      }
+    ]
   }
 }
