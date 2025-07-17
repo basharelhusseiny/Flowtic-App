@@ -42,9 +42,7 @@ const Packages = ({ dict }) => {
         <div className="absolute -top-5 right-4 sm:right-6 bg-gradient-to-r from-[#cb9ea7] to-pink-800 text-white px-4 sm:px-5 py-2 rounded-full shadow-lg transform -translate-y-1">
           <div className="flex items-center gap-2">
             <FaCrown size={16} />
-            <span className="font-bold text-sm font-tajawal">
-              {dict.Packages.popular_badge}
-            </span>
+            <span className="font-bold ">{dict.Packages.popular_badge}</span>
           </div>
         </div>
       )}
@@ -56,10 +54,10 @@ const Packages = ({ dict }) => {
         >
           <FaStar className="text-white" size={20} sm={26} />
         </div>
-        <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 font-cairo">
+        <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
           {pkg.name}
         </h3>
-        <p className="text-gray-700 leading-relaxed text-sm sm:text-base font-tajawal">
+        <p className="text-gray-700 leading-relaxed  sm:text-base">
           {pkg.description}
         </p>
       </div>
@@ -67,21 +65,19 @@ const Packages = ({ dict }) => {
       {/* Price */}
       <div className="text-center mb-4 sm:mb-6">
         <div className="bg-white/90 backdrop-blur-md rounded-2xl p-3 sm:p-4 shadow-xl">
-          <div className="text-xl sm:text-2xl font-bold text-pink-800 mb-2 font-cairo">
+          <div className="text-xl sm:text-2xl font-bold text-pink-800 mb-2">
             {pkg.price}
           </div>
           <div className="flex items-center justify-center gap-2 text-gray-800">
             <FaUsers size={16} sm={18} className="text-pink-800" />
-            <span className="text-sm sm:text-base font-tajawal">
-              {pkg.usersLimit}
-            </span>
+            <span>{pkg.usersLimit}</span>
           </div>
         </div>
       </div>
 
       {/* Modules */}
       <div className="mb-4">
-        <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2 font-cairo">
+        <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
           <div className="w-2 h-2 bg-pink-800 rounded-full"></div>
           {dict.Packages.modules_title}
         </h4>
@@ -96,9 +92,7 @@ const Packages = ({ dict }) => {
                 size={14}
                 sm={16}
               />
-              <span className="text-gray-800 font-medium text-xs sm:text-sm font-tajawal">
-                {module}
-              </span>
+              <span className="text-gray-800 font-medium">{module}</span>
             </div>
           ))}
         </div>
@@ -106,7 +100,7 @@ const Packages = ({ dict }) => {
 
       {/* Services */}
       <div className="mb-4 sm:mb-5">
-        <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2 font-cairo">
+        <h4 className="sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
           <div className="w-2 h-2 bg-pink-800 rounded-full"></div>
           {dict.Packages.services_title}
         </h4>
@@ -121,7 +115,7 @@ const Packages = ({ dict }) => {
                 size={12}
                 sm={14}
               />
-              <span className="text-gray-800 text-xs sm:text-sm leading-relaxed font-tajawal">
+              <span className="text-gray-800 leading-relaxed">
                 {service}
               </span>
             </div>
@@ -144,7 +138,7 @@ const Packages = ({ dict }) => {
               `${"اريد الاستفسار عن"} ${pkg.name}`
             )}`}
             target="_blank"
-            className="flex justify-center items-center h-[40px] sm:h-[50px] bg-gradient-to-r from-green-500 to-green-700 text-white rounded-full font-semibold text-sm sm:text-lg transition-colors duration-300 shadow-lg hover:shadow-xl w-full sm:flex-1"
+            className="flex justify-center items-center h-[40px] sm:h-[50px] bg-gradient-to-r from-green-500 to-green-700 text-white rounded-full font-semibold  sm:text-lg transition-colors duration-300 shadow-lg hover:shadow-xl w-full sm:flex-1"
           >
             <FaWhatsapp size={18} sm={18} className="mx-2" />
             {dict.Packages.whatsapp}
@@ -152,7 +146,7 @@ const Packages = ({ dict }) => {
 
           <Link
             href="tel:201040747475"
-            className="flex justify-center items-center h-[40px] sm:h-[50px] bg-gradient-to-r from-sky-500 to-sky-700 text-white rounded-full font-semibold text-sm sm:text-lg transition-colors duration-300 shadow-lg hover:shadow-xl w-full sm:flex-1"
+            className="flex justify-center items-center h-[40px] sm:h-[50px] bg-gradient-to-r from-sky-500 to-sky-700 text-white rounded-full font-semibold  sm:text-lg transition-colors duration-300 shadow-lg hover:shadow-xl w-full sm:flex-1"
           >
             <FaPhone size={18} sm={18} className="mx-2" />
             {dict.Packages.call}
