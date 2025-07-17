@@ -158,12 +158,15 @@
     "choose_package": "Choose This Package",
     "whatsapp": "WhatsApp",
     "call": "Call",
+    "whatsapp_inquiry": "I want to inquire about",
     "packages": [
       {
+        "id": 1,
         "name": "Essential Package",
         "description": "For small and startup businesses beginning their digital journey",
         "usersLimit": "Up to 5 users",
         "price": "4000 SAR",
+        "isPopular": false,
         "modules": [
           "Sales",
           "Purchases",
@@ -179,10 +182,12 @@
         ]
       },
       {
+        "id": 2,
         "name": "Growth Package",
         "description": "For businesses seeking comprehensive organization and efficient operations",
         "usersLimit": "Up to 20 users",
         "price": "10000 SAR",
+        "isPopular": true,
         "modules": [
           "Sales",
           "Purchases",
@@ -200,10 +205,12 @@
         ]
       },
       {
+        "id": 3,
         "name": "Enterprise Package",
         "description": "For medium and large businesses needing customization and full integration",
         "usersLimit": "Unlimited",
         "price": "Determined after project study and analysis",
+        "isPopular": false,
         "modules": [
           "All Growth Package Modules",
           "Human Resources",

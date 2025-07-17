@@ -157,12 +157,15 @@
     "choose_package": "اختر هذه الباقة",
     "whatsapp": "واتساب",
     "call": "اتصال",
+    "whatsapp_inquiry": "أريد الاستفسار عن",
     "packages": [
       {
+        "id": 1,
         "name": "باقة Essential",
         "description": "للشركات الصغيرة والناشئة التي تبدأ رحلتها الرقمية",
         "usersLimit": "حتى 5 مستخدمين",
         "price": "4000 ر.س",
+        "isPopular": false,
         "modules": [
           "المبيعات",
           "المشتريات",
@@ -178,10 +181,12 @@
         ]
       },
       {
+        "id": 2,
         "name": "باقة Growth",
         "description": "للشركات التي تبحث عن تنظيم كامل وتشغيل فعّال",
         "usersLimit": "حتى 20 مستخدمين",
         "price": "10000 ر.س",
+        "isPopular": true,
         "modules": [
           "المبيعات",
           "المشتريات",
@@ -199,10 +204,12 @@
         ]
       },
       {
+        "id": 3,
         "name": "باقة Enterprise",
         "description": "للشركات المتوسطة والكبيرة التي تحتاج تخصيص وتكامل شامل",
         "usersLimit": "غير محدد",
         "price": "يحدد بعد دراسة وتحليل المشروع",
+        "isPopular": false,
         "modules": [
           "جميع وحدات باقة Growth",
           "الموارد البشرية",
