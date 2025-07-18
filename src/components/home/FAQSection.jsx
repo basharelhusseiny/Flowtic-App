@@ -29,7 +29,11 @@ const FAQSection = ({ dict }) => {
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex items-center justify-between gap-3 p-4 text-gray-900 focus:outline-none cursor-pointer"
               >
-                <h2 className="sm:text-lg font-semibold text-start">
+                <h2
+                  className={`sm:text-lg font-semibold text-start transition-colors duration-300 ${
+                    activeIndex === index ? "text-pink-800" : "text-gray-900"
+                  }`}
+                >
                   {faq.question}
                 </h2>
                 <motion.div
@@ -57,7 +61,7 @@ const FAQSection = ({ dict }) => {
                     transition={{ duration: 0.4, ease: "easeInOut" }}
                     className="px-6 pb-6 overflow-hidden"
                   >
-                    <div className="prose prose-lg max-w-none text-gray-900">
+                    <div className="prose prose-lg max-w-none text-gray-800">
                       <ul className="mt-2 space-y-4">
                         {faq.bullets.map((bullet, idx) => (
                           <li
