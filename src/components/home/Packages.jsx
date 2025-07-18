@@ -64,7 +64,7 @@ const Packages = ({ dict }) => {
 
       {/* Price */}
       <div className="text-center mb-4 sm:mb-6">
-        <div className="bg-white/90 backdrop-blur-md rounded-2xl p-3 sm:p-4 shadow-xl">
+        <div className="bg-white backdrop-blur-md rounded-2xl p-3 sm:p-4 shadow-xl">
           <div className="text-xl sm:text-2xl font-bold text-pink-800 mb-2">
             {pkg.price}
           </div>
@@ -85,7 +85,7 @@ const Packages = ({ dict }) => {
           {pkg.modules.map((module, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300 "
+              className="flex items-center gap-2 bg-white backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300 "
             >
               <FaCheck
                 className="text-green-500 flex-shrink-0"
@@ -108,7 +108,7 @@ const Packages = ({ dict }) => {
           {pkg.services.map((service, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300"
+              className="flex items-center gap-2 bg-white backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300"
             >
               <FaCheck
                 className="text-green-500 flex-shrink-0 mt-0.5"

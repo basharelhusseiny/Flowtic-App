@@ -96,21 +96,26 @@ const Footer = ({ locale }) => {
                 className="flex items-center justify-center md:justify-start gap-2 text-gray-600 hover:text-main-color transition-colors duration-300"
               >
                 <FaPhone size={14} />
-                <span>+966 54 739 3967</span>
+                <span className="text-start" dir="ltr">
+                  +966 54 739 3967
+                </span>
               </a>
               <a
                 href="tel:201040747475"
                 className="flex items-center justify-center md:justify-start gap-2 text-gray-600 hover:text-main-color transition-colors duration-300"
               >
                 <FaPhone size={14} />
-                <span>+20 104 074 7475</span>
+                <span className="text-start" dir="ltr">
+                  +20 104 074 7475
+                </span>
               </a>
+
               <a
                 href="mailto:info@flowtic.com"
                 className="flex items-center justify-center md:justify-start gap-2 text-gray-600 hover:text-main-color transition-colors duration-300"
               >
                 <FaEnvelope size={14} />
-                <span>info@flowtic.com</span>
+                <span className="text-start">info@flowtic.com</span>
               </a>
             </div>
 

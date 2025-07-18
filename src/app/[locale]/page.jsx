@@ -1,6 +1,8 @@
+import FAQSection from "@/components/home/FAQSection";
 import HeroSection from "@/components/home/HeroSection";
 import OdooInfoSection from "@/components/home/OdooInfoSection";
 import Packages from "@/components/home/Packages";
+import PartnerSection from "@/components/home/PartnerSection";
 import StatisticsSection from "@/components/home/StatisticsSection";
 import WhyOdooSection from "@/components/home/WhyOdooSection";
 import { getDictionary } from "@/dictionaries";
@@ -16,6 +18,8 @@ const Home = async ({ params }) => {
       <WhyOdooSection dict={dict} />
       <StatisticsSection dict={dict} />
       <Packages dict={dict} />
+      <PartnerSection dict={dict} />
+      <FAQSection dict={dict} />
     </main>
   );
 };

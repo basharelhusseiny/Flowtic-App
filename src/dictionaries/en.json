@@ -151,7 +151,7 @@
   },
   "Packages": {
     "title": "Flowtic Packages",
-    "description": "Choose the package that best suits your needs, or contact us for a customized solution.",
+    "description": "Choose the package that best suits your needs, or contact us for a customized solution",
     "popular_badge": "Most Popular",
     "modules_title": "Active Modules",
     "services_title": "Included Services",
@@ -226,6 +226,82 @@
           "Comprehensive User Training",
           "Free Technical Support for 1 Year"
         ]
+      }
+    ]
+  },
+  "partner": {
+    "title": "Success Partners",
+    "description": "We work with our partners with passion and commitment to achieve great goals together and build a future full of success"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to the most common questions about our services and how we operate.",
+    "questions": [
+      {
+        "question": "What are the stages of implementation?",
+        "bullets": [
+          "Purchasing Odoo licenses (we coordinate this for you)",
+          "Paying the setup and training costs",
+          "Providing us with your business data",
+          "Starting the account setup, configuration, and data upload",
+          "Training and final delivery"
+        ]
+      },
+      {
+        "question": "I want to know more about Odoo ERP hosting?",
+        "bullets": [
+          "Free cloud hosting during the active license period on their servers, suitable for those using the system as-is without customizations",
+          "Advanced hosting called 'SH', which allows code access and customizations, provides a staging environment, and costs around 3,500 SAR per year. It suits 30–40 users and includes 50GB storage (scalable based on needs)",
+          "Private server hosting, where a cloud server is dedicated to you starting at around 2,000 SAR per month for the smallest option. Cost increases with specs",
+          "You can install the system on your own server (locally or on cloud providers like AWS). This requires a one-time installation fee starting from $1,000 based on workload"
+        ]
+      },
+      {
+        "question": "What is the support policy for the Odoo ERP system?",
+        "bullets": [
+          "Odoo provides free support throughout the subscription period via support tickets on their official website",
+          "We also offer one-month free support after project scope completion, including bug fixes and responses via email"
+        ]
+      },
+      {
+        "question": "What terms and conditions should I be aware of?",
+        "bullets": [
+          "We commit to executing tasks according to best industry practices",
+          "We commit to maintaining the confidentiality of your private data",
+          "Implementation follows Odoo's standard features unless otherwise stated in the scope",
+          "All work and training are conducted remotely (online)",
+          "The client must assign one contact person for approvals",
+          "Any required inputs must be provided within 5 days of request",
+          "Training must be completed within one week after setup",
+          "The project is considered complete after setup and training regardless of your system usage",
+          "Unjustified delays will incur a 5% penalty of the project cost per week of delay, payable in advance",
+          "Setup fees are non-refundable unless work hasn't started due to force majeure"
+        ]
+      },
+      {
+        "question": "Do you offer annual support and maintenance contracts for Odoo ERP?",
+        "bullets": [
+          "We offer 'Success Packages' valid for one year from the purchase date, usable for technical support and additional work like training, new module setup, development, data import, and system integrations. Pricing is as follows:",
+          "25-hour package = 8,750 SAR",
+          "50-hour package = 17,000 SAR",
+          "100-hour package = 33,000 SAR"
+        ]
+      },
+      {
+        "question": "Are there any additional expected costs?",
+        "bullets": [
+          "Yes, such as user license needs or extra work like:",
+          "Modifying or creating custom reports",
+          "Adjusting fields, screens, workflows, or permissions",
+          "Additional development for specific features or modules",
+          "Expanding usage (e.g., adding POS, warehouse, or apps)",
+          "Integrating with external platforms or systems",
+          "Additional online training (250 SAR per hour)"
+        ]
+      },
+      {
+        "question": "Are there extra charges for Odoo ERP apps?",
+        "bullets": ["No, all Odoo apps are included with the user license"]
       }
     ]
   }
