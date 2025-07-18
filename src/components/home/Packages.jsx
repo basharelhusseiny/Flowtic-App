@@ -77,7 +77,7 @@ const Packages = ({ dict }) => {
 
       {/* Modules */}
       <div className="mb-4">
-        <h4 className="text-base sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
+        <h4 className="sm:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
           <div className="w-2 h-2 bg-pink-800 rounded-full"></div>
           {dict.Packages.modules_title}
         </h4>
@@ -85,14 +85,14 @@ const Packages = ({ dict }) => {
           {pkg.modules.map((module, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300 hover:bg-white/80"
+              className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300 "
             >
               <FaCheck
                 className="text-green-500 flex-shrink-0"
                 size={14}
                 sm={16}
               />
-              <span className="text-gray-800 font-medium">{module}</span>
+              <span className="text-gray-800">{module}</span>
             </div>
           ))}
         </div>
@@ -108,16 +108,14 @@ const Packages = ({ dict }) => {
           {pkg.services.map((service, idx) => (
             <div
               key={idx}
-              className="flex items-start gap-2 bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300 hover:bg-white/80"
+              className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-lg px-2 py-1 sm:px-3 sm:py-1 transition-all duration-300"
             >
               <FaCheck
                 className="text-green-500 flex-shrink-0 mt-0.5"
                 size={12}
                 sm={14}
               />
-              <span className="text-gray-800 leading-relaxed">
-                {service}
-              </span>
+              <span className="text-gray-800">{service}</span>
             </div>
           ))}
         </div>

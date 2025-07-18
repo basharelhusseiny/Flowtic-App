@@ -71,7 +71,7 @@ const WhyOdooSection = ({ dict }) => {
               {/* Main image with 3D effect */}
               <div className="relative bg-white rounded-2xl shadow-2xl p-4 transform hover:rotate-1 transition-transform duration-700 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.2)]">
                 <Image
-                  src="/images/why-odoo.png"
+                  src="/images/why-odoo-22.jpg"
                   alt="Odoo ERP Platform"
                   width={600}
                   height={400}

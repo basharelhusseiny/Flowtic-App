@@ -176,7 +176,7 @@
         ],
         "services": [
           "System Setup",
-          "Basic Data Entry (Customers, Products, Taxes)",
+          "Basic Data Entry ( Customers, Suppliers, Products, Product Categories, Chart of Accounts, Assets )",
           "User Training",
           "Free Technical Support for 3 Months"
         ]
@@ -199,7 +199,7 @@
         "services": [
           "Business Needs Analysis",
           "System Setup",
-          "Basic Data Entry (Customers, Products, Taxes)",
+          "Basic Data Entry ( Customers, Suppliers, Products, Product Categories, Chart of Accounts, Assets )",
           "User Training",
           "Free Technical Support for 1 Year"
         ]
@@ -216,12 +216,13 @@
           "Human Resources",
           "Projects",
           "Manufacturing",
-          "Integration with External Systems (e.g., Foodics, Payment Gateways, etc.)"
+          "Integration with External Systems ( e.g., Foodics, Payment Gateways, etc. )"
         ],
         "services": [
           "Detailed Study and Workflow Analysis",
           "Comprehensive Module and Form Customization",
-          "External Integration (API – Foodics – Payment Gateways – Banks)",
+          "External Integration ( API – Foodics – Payment Gateways – Banks )",
+          "Basic Data Entry ( Customers, Suppliers, Products, Product Categories, Chart of Accounts, Assets )",
           "Comprehensive User Training",
           "Free Technical Support for 1 Year"
         ]

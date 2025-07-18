@@ -9,9 +9,9 @@ const roboto = Roboto({ subsets: ["latin"], display: "swap" });
 const cairo = Cairo({ subsets: ["arabic"], display: "swap" });
 
 export const metadata = {
-  title: "Flowtic",
+  title: "Flowtic | Official Odoo Partner | Odoo ERP Implementation Experts",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eos asperiores nulla, blanditiis consequuntur corrupti nemo ea quae eaque sequi in soluta voluptatum harum animi! Necessitatibus doloremque animi repellat ducimus.",
+    "As an official Odoo Partner, Flowtic delivers tailored ERP implementation, training, and cloud support across MENA. Our team helps you automate, customize, and grow with Odoo ERP for industries like construction, retail, services, and manufacturing.",
 };
 
 export default async function RootLayout({ children, params }) {
