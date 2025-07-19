@@ -30,9 +30,9 @@ export const metadata = {
     "Manufacturing ERP",
   ],
   openGraph: {
-    title: "Flowtic | Official Odoo Partner",
+    title: "Flowtic | Official Odoo Partner | Odoo ERP Implementation Experts",
     description:
-      "Tailored Odoo ERP implementation and support across MENA. Automate, grow, and succeed with Flowtic.",
+      "As an official Odoo Partner, Flowtic delivers tailored ERP implementation, training, and cloud support across MENA. Our team helps you automate, customize, and grow with Odoo ERP for industries like construction, retail, services, and manufacturing.",
     url: "https://flowtic.co/",
     siteName: "Flowtic",
     images: [
