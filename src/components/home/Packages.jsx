@@ -124,7 +124,7 @@ const Packages = ({ dict }) => {
       {/* CTA Buttons */}
       <div className="space-y-3">
         <Link
-          href="#contact"
+          href="#Free-Consultation"
           className="flex justify-center items-center h-[40px] sm:h-[50px] bg-gradient-to-r from-[#cb9ea7] to-pink-800 text-white px-6 sm:px-8 rounded-full font-semibold text-base sm:text-lg transition-colors duration-300 shadow-lg hover:shadow-xl"
         >
           {dict.Packages.choose_package}

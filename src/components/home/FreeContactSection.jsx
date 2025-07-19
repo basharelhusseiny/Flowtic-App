@@ -29,13 +29,13 @@ const FreeContactSection = ({ dict, locale }) => {
     }
 
     const message = `
-      📩 طلب جديد من النموذج:
+📩 طلب جديد من النموذج:
 
-      🔸 النشاط: ${activity}
-      📧 الإيميل: ${email}
-      📞 الهاتف: ${phone}
-      📝 المتطلبات: ${requirements}
-        `;
+🔸 النشاط: ${activity}
+📧 الإيميل: ${email}
+📞 الهاتف: ${phone}
+📝 المتطلبات: ${requirements}
+  `;
 
     const phoneNumber = "966547393967";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
