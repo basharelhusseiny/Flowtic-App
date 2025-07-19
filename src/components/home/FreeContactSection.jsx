@@ -37,7 +37,7 @@ const FreeContactSection = ({ dict, locale }) => {
       📝 المتطلبات: ${requirements}
         `;
 
-    const phoneNumber = "201234567890";
+    const phoneNumber = "966547393967";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
