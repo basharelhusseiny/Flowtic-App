@@ -9,7 +9,7 @@ import HeaderSection from "@/ui/HeaderSection";
 
 const OdooInfoSection = ({ dict }) => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-bl from-gray-50 via-white to-red-100 relative overflow-hidden">
+    <section className="py-10 px-4 bg-gradient-to-bl from-gray-50 via-white to-red-100 relative overflow-hidden">
       <div className="container mx-auto px-5">
         {/* Background decorative elements */}
         <div className="absolute inset-0 overflow-hidden">

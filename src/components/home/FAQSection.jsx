@@ -12,7 +12,7 @@ const FAQSection = ({ dict }) => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-red-50">
+    <section className="py-10 bg-gradient-to-b from-white to-red-50">
       <div className="container mx-auto px-5 max-w-3xl">
         <HeaderSection
           title={dict.faq.title}

@@ -51,7 +51,10 @@ const WhyOdooSection = ({ dict }) => {
   };
 
   return (
-    <section className="pt-10 pb-14 px-4 bg-gradient-to-tl from-gray-50 via-white to-red-100 relative overflow-hidden">
+    <section
+      id="Why-Odoo"
+      className="scroll-mt-[72px] py-10 px-4 bg-gradient-to-tl from-gray-50 via-white to-red-100 relative "
+    >
       <div className="container mx-auto px-5 relative z-10">
         <HeaderSection
           title={dict.whyodo.title}

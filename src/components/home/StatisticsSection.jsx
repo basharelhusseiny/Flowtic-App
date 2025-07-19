@@ -105,7 +105,7 @@ const StatisticsSection = ({ dict }) => {
   };
 
   return (
-    <section className="py-5 relative overflow-hidden">
+    <section id="Why-Us" className="scroll-mt-[72px] py-10 relative">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 text-black z-0">
         {/* Animated background elements */}

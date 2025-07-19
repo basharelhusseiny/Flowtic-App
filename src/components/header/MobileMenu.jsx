@@ -51,7 +51,8 @@ const MobileMenu = ({ navLinks, locale }) => {
             {navLinks.map((link) => (
               <div key={link.id} className="menu-item">
                 <Link
-                  href={`/${locale}${link.href}`}
+                  href={link.href}
+                  scroll={true}
                   onClick={() => setIsMobMenuOpen(false)}
                   className="flex items-center text-main-color hover:text-white capitalize font-semibold text-lg py-2 px-4 rounded-lg hover:bg-[#a05b6a] transition-all duration-300"
                 >

@@ -25,7 +25,9 @@ export default async function RootLayout({ children, params }) {
       >
         <MobileMenuProvider>
           <Header locale={locale} />
-          <main className="flex-grow mt-[72px]">{children}</main>
+          <main className="flex-grow mt-[72px] overflow-hidden">
+            {children}
+          </main>
           <Footer locale={locale} />
           <FixedButtons />
         </MobileMenuProvider>

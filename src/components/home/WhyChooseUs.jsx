@@ -82,7 +82,7 @@ const WhyChooseUs = ({ dict }) => {
   };
 
   return (
-    <section className="mt-5 py-16 relative overflow-hidden rounded-xl">
+    <section className="mt-5 py-10 relative overflow-hidden rounded-xl">
       {/* Subtle background decoration */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 right-10 w-32 h-32 bg-main-color rounded-full"></div>

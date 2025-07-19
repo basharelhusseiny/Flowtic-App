@@ -47,17 +47,17 @@ const HeroSection = ({ dict, locale }) => {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-3">
                   <Link
-                    href="/contact"
+                    href="#Our-Packages"
                     className="flex justify-center items-center h-[50px] bg-gradient-to-r from-[#cb9ea7] to-pink-800 text-white px-8 rounded-full font-semibold text-lg hover:from-pink-800 hover:to-[#cb9ea7]  transition-colors duration-300 shadow-lg hover:shadow-xl"
                   >
                     {dict.hero.cta_start}
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/demo"
                     className="flex justify-center items-center h-[50px] border-2 border-gray-300 text-gray-700 px-8  rounded-full font-semibold text-lg hover:border-[#a05b6a] hover:text-[#8b4c59] transition-all duration-300"
                   >
                     {dict.hero.cta_demo}
-                  </Link>
+                  </Link> */}
                 </div>
 
                 {/* Trust indicators */}

@@ -23,7 +23,6 @@ const FreeContactSection = ({ dict, locale }) => {
 
     const { activity, email, phone, requirements } = formData;
 
-  
     if (!activity || !email || !phone || !requirements) {
       alert("من فضلك املأ جميع الحقول قبل الإرسال.");
       return;
@@ -60,7 +59,10 @@ const FreeContactSection = ({ dict, locale }) => {
   const iconPositionClass = isRTL ? "right-0 pr-4" : "left-0 pl-4";
 
   return (
-    <section className="py-14 px-5 relative overflow-hidden">
+    <section
+      id="Free-Consultation"
+      className="scroll-mt-[72px] py-10 px-5 relative"
+    >
       {/* Background Design Elements */}
       <div className="absolute -top-0 -right-0 w-30 h-30 bg-pink-800 rounded-full blur-3xl" />
       <div className="absolute -bottom-0 -left-0 w-30 h-30 bg-red-500 rounded-full blur-3xl" />

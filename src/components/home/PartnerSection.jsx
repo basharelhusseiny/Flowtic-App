@@ -3,7 +3,7 @@ import RollingGallery from "./RollingGallery";
 
 const PartnerSection = ({ dict }) => {
   return (
-    <section className="overflow-hidden py-10">
+    <section id="Our-Clients" className="scroll-mt-[72px] py-10">
       <div className="container mx-auto px-5">
         <HeaderSection
           title={dict.partner.title}
