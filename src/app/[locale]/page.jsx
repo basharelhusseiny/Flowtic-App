@@ -1,4 +1,5 @@
 import FAQSection from "@/components/home/FAQSection";
+import FreeContactSection from "@/components/home/FreeContactSection";
 import HeroSection from "@/components/home/HeroSection";
 import OdooInfoSection from "@/components/home/OdooInfoSection";
 import Packages from "@/components/home/Packages";
@@ -20,6 +21,7 @@ const Home = async ({ params }) => {
       <Packages dict={dict} />
       <PartnerSection dict={dict} />
       <FAQSection dict={dict} />
+      <FreeContactSection dict={dict} locale={locale} />
     </main>
   );
 };

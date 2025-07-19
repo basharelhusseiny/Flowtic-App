@@ -304,5 +304,27 @@
         "bullets": ["No, all Odoo apps are included with the user license"]
       }
     ]
+  },
+  "freeContact": {
+    "title": "Get a Free Consultation",
+    "description": "Submit your request now, and one of our consultants will be happy to contact you as soon as possible",
+    "form": {
+      "activityPlaceholder": "Select Activity",
+      "emailPlaceholder": "Enter your email",
+      "phonePlaceholder": "Enter your phone number",
+      "requirementsPlaceholder": "Write a brief about your requirements",
+      "submitButton": "Send Free Consultation Request",
+      "activities": [
+        "E-commerce",
+        "Inventory Management",
+        "Sales Management",
+        "Procurement Management",
+        "Human Resources Management",
+        "Accounting and Finance",
+        "Project Management",
+        "Manufacturing",
+        "Customer Relationship Management"
+      ]
+    }
   }
 }
