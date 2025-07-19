@@ -176,8 +176,7 @@ const Packages = ({ dict }) => {
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={15}
-            slidesPerView={1}
-            loop={true}
+            slidesPerView={0.95}
             centeredSlides={true}
             autoplay={{
               delay: 3000,
