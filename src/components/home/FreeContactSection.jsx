@@ -64,8 +64,8 @@ const FreeContactSection = ({ dict, locale }) => {
       className="scroll-mt-[72px] py-10 px-5 relative"
     >
       {/* Background Design Elements */}
-      <div className="absolute -top-0 -right-0 w-30 h-30 bg-pink-800 rounded-full blur-3xl" />
-      <div className="absolute -bottom-0 -left-0 w-30 h-30 bg-red-500 rounded-full blur-3xl" />
+      <div className="absolute bottom-70 sm:top-20 -right-0 w-30 h-30 bg-pink-800 rounded-full blur-3xl" />
+      <div className="absolute bottom-70 sm:-bottom-0 -left-0 w-30 h-30 bg-red-500 rounded-full blur-3xl" />
 
       <div className="max-w-3xl mx-auto relative">
         <HeaderSection
